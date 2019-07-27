@@ -13,11 +13,3 @@ function pow(m, n) {
     return result;
 }
 
-let x = +prompt("Enter: x", '0');
-let n = +prompt("Enter: n", "0");
-
-  if (n < 1 ) {
-    n = +prompt("Enter: n > 1", "0");
-  } else {
-    alert( pow(x, n) );
-  }
