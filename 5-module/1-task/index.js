@@ -9,7 +9,7 @@ function highlight(table) {
   let index1 = 0;  // Ячейка 'Age'
   
 
-  // Определяю индексы ячеек с содержимым 'Status' и 'Gender'
+  // Определяю индексы ячеек с содержимым 'Status', 'Gender' и 'Age'
 
   for (let i = 0; i < trThead.cells.length; i++) {
     if (trThead.cells[i].innerHTML === 'Status') {

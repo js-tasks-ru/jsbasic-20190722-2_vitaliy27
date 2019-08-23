@@ -56,7 +56,7 @@ let rows = [
 let table = new ClearedTable(rows);
 document.querySelector('.result').appendChild(table.el);
 
-table.onRemoved = function (id) {
+table.onRemoved = function (id) { 
     console.log(`Из таблицы удален пользователь ${id}`);
 }
 ```
